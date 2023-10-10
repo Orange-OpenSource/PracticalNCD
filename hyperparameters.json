@@ -1,0 +1,369 @@
+{
+    "NCD SC": {
+        "GT k": {
+            "HumanActivityRecognition": {
+                "min_dist": 0.9612,
+                "n_components": 64
+            },
+            "LetterRecognition": {
+                "min_dist": 0.3108,
+                "n_components": 12
+            },
+            "Pendigits": {
+                "min_dist": 0.2729,
+                "n_components": 16
+            },
+            "USCensus1990": {
+                "min_dist": 0.5759,
+                "n_components": 35
+            },
+            "multiple_feature": {
+                "min_dist": 0.4710,
+                "n_components": 16
+            },
+            "optdigits": {
+                "min_dist": 0.8901,
+                "n_components": 55
+            },
+            "cnae_9": {
+                "min_dist": 0.03123,
+                "n_components": 20
+            }
+        },
+        "Estimated k": {
+            "HumanActivityRecognition": {
+                "min_dist": 0.07863,
+                "n_components": 189
+            },
+            "LetterRecognition": {
+                "min_dist": 0.2268,
+                "n_components": 88
+            },
+            "Pendigits": {
+                "min_dist": 0.3140,
+                "n_components": 13
+            },
+            "USCensus1990": {
+                "min_dist": 0.6807,
+                "n_components": 2
+            },
+            "multiple_feature": {
+                "min_dist": 0.8872,
+                "n_components": 9
+            },
+            "optdigits": {
+                "min_dist": 0.2420,
+                "n_components": 35
+            },
+            "cnae_9": {
+                "min_dist": 0.7178,
+                "n_components": 42
+            }
+        }
+    },
+    "Baseline": {
+        "GT k": {
+            "HumanActivityRecognition": {
+                "lr": 0.0003621,
+                "p_dropout": 0.08963,
+                "latent_dim": 219
+            },
+            "LetterRecognition": {
+                "lr": 0.005706,
+                "p_dropout": 0.2892,
+                "latent_dim": 12
+            },
+            "Pendigits": {
+                "lr": 0.0002394,
+                "p_dropout": 0.002577,
+                "latent_dim": 12
+            },
+            "USCensus1990": {
+                "lr": 0.001606,
+                "p_dropout": 0.4620,
+                "latent_dim": 29
+            },
+            "multiple_feature": {
+                "lr": 0.0001265,
+                "p_dropout": 0.05414,
+                "latent_dim": 44
+            },
+            "optdigits": {
+                "lr": 0.002156,
+                "p_dropout": 0.3774,
+                "latent_dim": 21
+            },
+            "cnae_9": {
+                "lr": 0.0001012,
+                "p_dropout": 0.005649,
+                "latent_dim": 45
+            }
+        },
+        "Estimated k": {
+            "HumanActivityRecognition": {
+                "lr": 0.0001543,
+                "p_dropout": 0.1680,
+                "latent_dim": 560
+            },
+            "LetterRecognition": {
+                "lr": 0.001333,
+                "p_dropout": 0.1401,
+                "latent_dim": 9
+            },
+            "Pendigits": {
+                "lr": 0.005518,
+                "p_dropout": 0.05251,
+                "latent_dim": 9
+            },
+            "USCensus1990": {
+                "lr": 0.002021,
+                "p_dropout": 0.4678,
+                "latent_dim": 30
+            },
+            "multiple_feature": {
+                "lr": 0.0001187,
+                "p_dropout": 0.5649,
+                "latent_dim": 34
+            },
+            "optdigits": {
+                "lr": 0.003330,
+                "p_dropout": 0.07518,
+                "latent_dim": 42
+            },
+            "cnae_9": {
+                "lr": 0.0001677,
+                "p_dropout": 0.2578,
+                "latent_dim": 569
+            }
+        }
+    },
+    "PBN": {
+        "GT k": {
+            "HumanActivityRecognition": {
+                "lr": 0.0001387,
+                "w": 0.8814,
+                "p_dropout": 0.5526,
+                "latent_dim": 276
+            },
+            "LetterRecognition": {
+                "lr": 0.006142,
+                "w": 0.8605,
+                "p_dropout": 0.0808,
+                "latent_dim": 13
+            },
+            "Pendigits": {
+                "lr": 0.002840,
+                "w": 0.4606,
+                "p_dropout": 0.02538,
+                "latent_dim": 11
+            },
+            "USCensus1990": {
+                "lr": 0.000495,
+                "w": 0.9715,
+                "p_dropout": 0.1380,
+                "latent_dim": 28
+            },
+            "multiple_feature": {
+                "lr": 0.0002768,
+                "w": 0.4283,
+                "p_dropout": 0.1264,
+                "latent_dim": 123
+            },
+            "optdigits": {
+                "lr": 0.0008756,
+                "w": 0.0637,
+                "p_dropout": 0.08648,
+                "latent_dim": 58
+            },
+            "cnae_9": {
+                "lr": 0.004836,
+                "w": 0.9006,
+                "p_dropout": 0.01101,
+                "latent_dim": 768
+            }
+        },
+        "Estimated k": {
+            "HumanActivityRecognition": {
+                "lr": 0.0001014,
+                "w": 0.4671,
+                "p_dropout": 0.5098,
+                "latent_dim": 504
+            },
+            "LetterRecognition": {
+                "lr": 0.0005889,
+                "w": 0.7224,
+                "p_dropout": 0.02746,
+                "latent_dim": 22
+            },
+            "Pendigits": {
+                "lr": 0.001077,
+                "w": 0.1067,
+                "p_dropout": 0.01126,
+                "latent_dim": 12
+            },
+            "USCensus1990": {
+                "lr": 0.002112,
+                "w": 0.9609,
+                "p_dropout": 0.1678,
+                "latent_dim": 13
+            },
+            "multiple_feature": {
+                "lr": 0.004675,
+                "w": 0.6703,
+                "p_dropout": 0.2393,
+                "latent_dim": 172
+            },
+            "optdigits": {
+                "lr": 0.0003646,
+                "w": 0.1892,
+                "p_dropout": 0.06607,
+                "latent_dim": 53
+            },
+            "cnae_9": {
+                "lr": 0.0044,
+                "w": 0.6982,
+                "p_dropout": 0.08132,
+                "latent_dim": 579
+            }
+        }
+    },
+    "TabularNCD": {
+        "GT k": {
+            "HumanActivityRecognition": {
+                "k_neighbors": 16,
+                "latent_dim": 39,
+                "lr": 0.0002165,
+                "p_dropout": 0.1759,
+                "top_k": 0.7196,
+                "w1": 0.5775,
+                "w2": 0.5672
+            },
+            "LetterRecognition": {
+                "k_neighbors": 100,
+                "latent_dim": 16,
+                "lr": 0.000549,
+                "p_dropout": 0.0453,
+                "top_k": 0.8781,
+                "w1": 0.1103,
+                "w2": 0.9906
+            },
+            "Pendigits": {
+                "k_neighbors": 73,
+                "latent_dim": 13,
+                "lr": 0.004648,
+                "p_dropout": 0.02782,
+                "top_k": 0.4674,
+                "w1": 0.1399,
+                "w2": 0.6054
+            },
+            "USCensus1990": {
+                "k_neighbors": 57,
+                "latent_dim": 26,
+                "lr": 0.001516,
+                "p_dropout": 0.2456,
+                "top_k": 0.3150,
+                "w1": 0.2426,
+                "w2": 0.6919
+            },
+            "multiple_feature": {
+                "k_neighbors": 82,
+                "latent_dim": 167,
+                "lr": 0.001958,
+                "p_dropout": 0.5547,
+                "top_k": 0.7160,
+                "w1": 0.009997,
+                "w2": 0.9934
+            },
+            "optdigits": {
+                "k_neighbors": 2,
+                "latent_dim": 27,
+                "lr": 0.003927,
+                "p_dropout": 0.03493,
+                "top_k": 0.6738,
+                "w1": 0.9967,
+                "w2": 0.8863
+            },
+            "cnae_9": {
+                "k_neighbors": 11,
+                "latent_dim": 445,
+                "lr": 0.0009717,
+                "p_dropout": 0.07079,
+                "top_k": 0.3249,
+                "w1": 0.09477,
+                "w2": 0.9245
+            }
+        },
+        "Estimated k": {
+            "HumanActivityRecognition": {
+                "n_unknown_classes": 2,
+                "k_neighbors": 28,
+                "latent_dim": 33,
+                "lr": 0.0006803,
+                "p_dropout": 0.07121,
+                "top_k": 0.7061,
+                "w1": 0.4630,
+                "w2": 0.6290
+            },
+            "LetterRecognition": {
+                "n_unknown_classes": 45,
+                "k_neighbors": 29,
+                "latent_dim": 14,
+                "lr": 0.0003652,
+                "p_dropout": 0.06673,
+                "top_k": 0.1652,
+                "w1": 0.4137,
+                "w2": 0.9710
+            },
+            "Pendigits": {
+                "n_unknown_classes": 5,
+                "k_neighbors": 73,
+                "latent_dim": 13,
+                "lr": 0.004648,
+                "p_dropout": 0.2782,
+                "top_k": 0.4674,
+                "w1": 0.1399,
+                "w2": 0.6054
+            },
+            "USCensus1990": {
+                "n_unknown_classes": 3,
+                "k_neighbors": 45,
+                "latent_dim": 56,
+                "lr": 0.001248,
+                "p_dropout": 0.2749,
+                "top_k": 0.9396,
+                "w1": 0.3125,
+                "w2": 0.8827
+            },
+            "multiple_feature": {
+                "n_unknown_classes": 2,
+                "k_neighbors": 15,
+                "latent_dim": 98,
+                "lr": 0.0084,
+                "p_dropout": 0.01384,
+                "top_k": 0.5904,
+                "w1": 0.3019,
+                "w2": 0.8343
+            },
+            "optdigits": {
+                "n_unknown_classes": 9,
+                "k_neighbors": 48,
+                "latent_dim": 62,
+                "lr": 0.007554,
+                "p_dropout": 0.09159,
+                "top_k": 0.9959,
+                "w1": 0.7853,
+                "w2": 0.9336
+            },
+            "cnae_9": {
+                "n_unknown_classes": 2,
+                "k_neighbors": 7,
+                "latent_dim": 791,
+                "lr": 0.001296,
+                "p_dropout": 0.08220,
+                "top_k": 0.9421,
+                "w1": 0.1963,
+                "w2": 0.6413
+            }
+        }
+    }
+}

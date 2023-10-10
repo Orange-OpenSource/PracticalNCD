@@ -1,0 +1,26 @@
+# Temporary files
+*.bak
+**/__pycache__
+
+# Pycharm
+.idea/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Datasets
+data/*
+!data/.gitkeep
+
+# Virtual Environment
+venvpracticalncd/*
+
+# Weights and Biases logs
+wandb/*
+
+# Figures
+iframe_figures/*
+figures/*
+!figures/.gitkeep
+
+data_DOWNLOADED.rar
