@@ -2,62 +2,62 @@
     "NCD SC": {
         "GT k": {
             "HumanActivityRecognition": {
-                "min_dist": 0.9612,
-                "n_components": 64
+                "min_dist": 0.6222,
+                "n_components": 41
             },
             "LetterRecognition": {
-                "min_dist": 0.3108,
-                "n_components": 12
+                "min_dist": 0.9855,
+                "n_components": 63
             },
             "Pendigits": {
-                "min_dist": 0.2729,
-                "n_components": 16
+                "min_dist": 0.3784,
+                "n_components": 15
             },
             "USCensus1990": {
-                "min_dist": 0.5759,
-                "n_components": 35
+                "min_dist": 0.02456,
+                "n_components": 17
             },
             "multiple_feature": {
-                "min_dist": 0.4710,
-                "n_components": 16
+                "min_dist": 0.4757,
+                "n_components": 14
             },
             "optdigits": {
-                "min_dist": 0.8901,
-                "n_components": 55
+                "min_dist": 0.1160,
+                "n_components": 37
             },
             "cnae_9": {
-                "min_dist": 0.03123,
-                "n_components": 20
+                "min_dist": 0.4023,
+                "n_components": 16
             }
         },
         "Estimated k": {
             "HumanActivityRecognition": {
-                "min_dist": 0.07863,
-                "n_components": 189
+                "min_dist": 0.2940,
+                "n_components": 144
             },
             "LetterRecognition": {
-                "min_dist": 0.2268,
-                "n_components": 88
+                "min_dist": 0.9814,
+                "n_components": 14
             },
             "Pendigits": {
-                "min_dist": 0.3140,
-                "n_components": 13
+                "min_dist": 0.8615,
+                "n_components": 18
             },
             "USCensus1990": {
-                "min_dist": 0.6807,
-                "n_components": 2
+                "min_dist": 0.6353,
+                "n_components": 53
             },
             "multiple_feature": {
-                "min_dist": 0.8872,
-                "n_components": 9
+                "min_dist": 0.7001,
+                "n_components": 16
             },
             "optdigits": {
-                "min_dist": 0.2420,
-                "n_components": 35
+                "min_dist": 0.2041,
+                "n_components": 26
             },
             "cnae_9": {
-                "min_dist": 0.7178,
-                "n_components": 42
+                "min_dist": 0.8313,
+                "n_components": 14
             }
         }
     },

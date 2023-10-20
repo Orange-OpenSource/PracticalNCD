@@ -73,7 +73,7 @@ def get_laplacian(A, normed=True):
 def get_spectral_embedding(x, n_components, min_dist, normed_laplacian=True):
     outer_diff = batch_outer_difference_normed(x)
 
-    sigma = estimate_sigma(outer_diff)
+    sigma = estimate_sigma(outer_diff, min_dist)
 
     A = get_adjacency_matrix(outer_diff, sigma)
 
