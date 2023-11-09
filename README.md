@@ -1,13 +1,40 @@
 # A Practical Approach to Novel Class Discovery in Tabular Data
 
-## Installation
+## Setting up the Python environment
+### 1. With [Anaconda](https://www.anaconda.com/download):
 ```bash
 # Create the virtual environment and install the packages with conda
 conda env create --file environment.yml --prefix ./venvpracticalncd
+
 # Activate the virtual environment
 conda activate .\venvpracticalncd
+```
+
+### 2. Without Anaconda:
+Prerequisite: having [Python 3.10.9](https://www.python.org/downloads/release/python-3109/) the default python 3.10 version.
+```bash
+# Create the empty virtual environment
+py -3.10 -m venv venvpracticalncd
+
+# Activate the virtual environment
+# On windows:
+  .\venvpracticalncd\Scripts\activate
+# On linux:
+  source venvpracticalncd/bin/activate
+  
+# Install the needed packages
+pip install -r requirements.txt
+
+# And finish by installing pytorch independently
+pip install torch==1.12.1 --index-url https://download.pytorch.org/whl/cu113
+```
+
+
+### 3. Finishing touches
+```bash
 # Add the virtual environment as a jupyter kernel
 ipython kernel install --name "venvpracticalncd" --user
+
 # Check if torch supports GPU (you need CUDA 11 installed)
 python -c "import torch; print(torch.cuda.is_available())"
 ```
@@ -34,5 +61,5 @@ The most impacted datasets are:
 ## Citation
 If you found this work useful, please use the following citation:
 ```
-...
+TBA
 ```
