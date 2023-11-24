@@ -1,7 +1,21 @@
-# A Practical Approach to Novel Class Discovery in Tabular Data
+# PracticalNCD
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This python library proposes an ensemble tools for the Machine Learning problem of [Novel Class Discovery](https://arxiv.org/pdf/2302.12028.pdf).
+
+In this library, you will find the following tools illustrated through Jupyter Notebooks:
+ - An hyperparameter optimization procedure tailored to transfer the results from the known classes to the novel classes.
+ - An estimation of the number of clusters by applying clustering quality metrics in the latent space of NCD methods.
+ - Two unsupervised clustering algorithms modified to utilize the data available in the NCD setting.
+ - A novel method called PBN (for Projection-Based NCD).
+
+This repository implements the code used to generate the results of the scientific paper "[A Practical Approach to Novel Class Discovery in Tabular Data](https://arxiv.org/pdf/2311.05440.pdf)" (see the citation below).
 
 ## Setting up the Python environment
-### 1. With [Anaconda](https://www.anaconda.com/download):
+
+### Option 1 - With [Anaconda](https://www.anaconda.com/download):
+
 ```bash
 # Create the virtual environment and install the packages with conda
 conda env create --file environment.yml --prefix ./venvpracticalncd
@@ -10,8 +24,10 @@ conda env create --file environment.yml --prefix ./venvpracticalncd
 conda activate .\venvpracticalncd
 ```
 
-### 2. Without Anaconda:
+### Option 2 - Without Anaconda:
+
 Prerequisite: having [Python 3.10.9](https://www.python.org/downloads/release/python-3109/) the default python 3.10 version.
+
 ```bash
 # Create the empty virtual environment
 py -3.10 -m venv venvpracticalncd
@@ -30,7 +46,8 @@ pip install torch==1.12.1 --index-url https://download.pytorch.org/whl/cu113
 ```
 
 
-### 3. Finishing touches
+### Finishing touches
+
 ```bash
 # Add the virtual environment as a jupyter kernel
 ipython kernel install --name "venvpracticalncd" --user
@@ -61,5 +78,17 @@ The most impacted datasets are:
 ## Citation
 If you found this work useful, please use the following citation:
 ```
-TBA
+@article{tr2023practical,
+   title = {A Practical Approach to Novel Class Discovery in Tabular Data},
+   author = {Troisemaine, Colin and Reiffers{-}Masson, Alexandre and Gosselin, St{'{e}}phane and Lemaire, Vincent and Vaton, Sandrine},
+   journal = {ArXiv},
+   year = {2023},
+   doi = {10.48550/ARXIV.2311.05440}
+}
 ```
+
+## License
+
+Copyright (c) 2023 Orange.
+
+This code is released under the MIT license. See the LICENSE file for more information.

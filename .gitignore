@@ -20,7 +20,3 @@ wandb/*
 
 # Figures
 iframe_figures/*
-figures/*
-!figures/.gitkeep
-
-data_DOWNLOADED.rar

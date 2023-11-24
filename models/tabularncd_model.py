@@ -1,3 +1,12 @@
+# Software Name : PracticalNCD
+# Version: 1.0
+# SPDX-FileCopyrightText: Copyright (c) 2023 Orange
+# SPDX-License-Identifier: MIT
+#
+# This software is distributed under the MIT License,
+# the text of which is available at https://spdx.org/licenses/MIT.html
+# or see the "license.txt" file for more details.
+
 from sklearn.metrics import accuracy_score, adjusted_rand_score, normalized_mutual_info_score
 from tqdm import tqdm
 import wandb
