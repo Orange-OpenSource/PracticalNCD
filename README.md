@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This python library proposes an ensemble tools for the Machine Learning problem of [Novel Class Discovery](https://arxiv.org/pdf/2302.12028.pdf).
+This python library proposes an ensemble of tools for the Machine Learning problem of [Novel Class Discovery](https://arxiv.org/pdf/2302.12028.pdf).
 
 In this library, you will find the following tools illustrated through Jupyter Notebooks:
  - An hyperparameter optimization procedure tailored to transfer the results from the known classes to the novel classes.
